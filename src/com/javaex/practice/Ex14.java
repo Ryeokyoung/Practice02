@@ -10,3 +10,4 @@ public class Ex14 {
 		Scanner sc = new Scanner(System.in);
 		
 }
+}
