@@ -4,9 +4,22 @@ import java.util.Scanner;
 
 public class Ex10 {
 	public static void main(String[]agrs) {
-		System.out.println("키와 몸무게를 입력해주세요");
-		System.out.println("키:");
-		System.out.println("몸무게:");
+		System.out.println("사번입력");
+		System.out.println("사번:");
+		
 		Scanner sc = new Scanner(System.in);
+		
+		int code = sc.nextInt();
+		
+		if(code%3==0) {
+			System.out.println("A팀");
+		}else if(code%3==1){
+			System.out.println("B팀");
+		}else if(code%3==2) {
+			System.out.println("C팀");
+			
+		}
+	sc.close();
+	
 	}
 }
