@@ -15,7 +15,7 @@ public class Ex12 {
 		String sign = sc.nextLine();
 		
 		switch(sign) {
-		case "+":hkhk
+		case "+":
 			System.out.println("결과는:"+(num1+num2));
 		}
 	
